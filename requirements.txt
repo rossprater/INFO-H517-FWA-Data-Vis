@@ -1,4 +1,4 @@
-dash==2.9.3
+dash==4.1.0
 dash-bootstrap-components
 plotly
 pandas
