@@ -20,7 +20,7 @@ NUMERIC_COLS = [
     "total_number_of_recipients",
     "total_number_of_claims",
     "total_dollar_amount_of_claims",
-    "recipients_average_traveled_distance_miles",
+    "recipients_average_travelled_distance_miles",
     "provider_geocode_latitude",
     "Provider_geocode_longitude",
     "Year",
