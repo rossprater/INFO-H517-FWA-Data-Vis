@@ -15,8 +15,11 @@ import dash_bootstrap_components as dbc
 # 1. DATA LOADING & CLEANING
 # -----------------------------------------------------------------------------
 
-DATA_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTux2p0df-i_wSq4UTqxVmoQ0dcRGuSAqwMUq-EtHTQRjlKopAWcu2Of0K9BVLHpI00atdAScFdmZUm/pub?output=csv'
-
+DATA_URL = (
+    "https://docs.google.com/spreadsheets/d/e/"
+    "2PACX-1vTux2p0df-i_wSq4UTqxVmoQ0dcRGuSAqwMUq-"
+    "EtHTQRjlKopAWcu2Of0K9BVLHpI00atdAScFdmZUm/pub?output=csv"
+)
 
 NUMERIC_COLS = [
     "total_number_of_recipients",
@@ -248,7 +251,20 @@ app.layout = dbc.Container([
         ),
         " | Aggregated provider-level claims | "
         "Anomalies reflect statistical patterns, not confirmed FWA incidents.",
-    ], className="text-muted small text-center mb-3"),
+    ], className="text-muted small text-center mb-1"),
+    html.P([
+        html.A(
+            "Watch the project walkthrough recording",
+            href="YOUR_STREAM_LINK_HERE",
+            target="_blank",
+        ),
+        " | ",
+        html.A(
+            "View source on GitHub",
+            href="https://github.com/rossprater/INFO-H517-FWA-Data-Vis/tree/main",
+            target="_blank",
+        ),
+    ], className="text-center small mb-3"),
 ], fluid=True)
 
 # -----------------------------------------------------------------------------
