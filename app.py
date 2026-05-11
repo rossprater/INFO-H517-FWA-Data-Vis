@@ -255,7 +255,7 @@ app.layout = dbc.Container([
     html.P([
         html.A(
             "Watch the project walkthrough recording",
-            href="YOUR_STREAM_LINK_HERE",
+            href="https://indiana-my.sharepoint.com/:v:/g/personal/raprater_iu_edu/IQDrHXwp_anTQb_1BjUpSxCdAS1UyumZ99ggJkDy7l5AzWU?e=x8nn8h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D",
             target="_blank",
         ),
         " | ",
